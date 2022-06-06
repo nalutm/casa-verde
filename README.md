@@ -1,4 +1,6 @@
-# Casa Verde
+<div align="start"><br>
+    <img alt="Mobile cover" height="auto" width="auto" src="./assets/img/logo.svg">  
+</div>
 
 ### Tópicos
 
@@ -21,7 +23,9 @@ A partir desse projeto treinei:
 
 Como desafio irei continuar os layouts das demais páginas e da versão desktop.
 
-![imagem](./assets/img/mobile.png)
+<div align="center"><br>
+    <img alt="Mobile cover" height="auto" width="auto" src="./assets/img/mobile.png">  
+</div>
 
 ## Status do Projeto
 Em andamento
