@@ -9,7 +9,7 @@
 * Autora
 
 ## Descrição do projeto
-O projeto Casa Verde foi desenvolvido a partir de um protótipo figma [que pode ser feito download](https://github.com/nalutm/casa-verde) e importado no figma disponibilizado em um dos [cursos da escola front-end da Alura](https://www.alura.com.br/escola-front-end). 
+O projeto Casa Verde foi desenvolvido a partir de um protótipo figma [que pode ser feito download](https://github.com/nalutm/casa-verde/raw/main/styleguides.fig) e importado no figma disponibilizado em um dos [cursos da escola front-end da Alura](https://www.alura.com.br/escola-front-end). 
 Dessa forma, pude primeiro fazer o meu código e em seguida revisá-lo assistindo as aulas do curso e reparando onde poderia melhorar.
 
 A partir desse projeto treinei: 
@@ -31,7 +31,7 @@ Em andamento
 * CSS
 
 ## Acesso ao projeto
-Você pode acessar o [código fonte do projeto](https://github.com/nalutm/casa-verde) ou [baixá-lo](https://github.com/nalutm/casa-verde/archive/refs/heads/main.zip). Também pode acessar a [página para conferir o resultado final](https://casa-verde.vercel.app/)
+Você pode acessar o [código fonte do projeto](https://github.com/nalutm/casa-verde) ou [baixá-lo](https://github.com/nalutm/casa-verde/archive/refs/heads/main.zip). Também pode acessar a [página para conferir o resultado final](https://casa-verde-pearl.vercel.app/)
 
 ## Autora
 [Nayara Luiza Tavares Moraes](https://github.com/nalutm)
