@@ -1,0 +1,72 @@
+.product {
+  background: var(--white);
+  box-shadow: 10px 10px 30px var(--black-shadow);
+  box-sizing:border-box;
+  margin-bottom: 1rem;
+  min-height: 12.5rem;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "img content";
+  align-items: center;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.product__img {
+  /* left: -8rem;
+  position: absolute;
+  top: 50%;
+
+  transform: translateY(-50%); /* para que o meio da imagem fique na metade do cartão 
+  z-index: 1; /* para garantir que a imagem fique atrás do conteúdo 
+
+  width: 18.75rem; */
+  grid-area: img;
+  width: 10.75rem; 
+  align-self: flex-end;
+}
+
+/*product01*/
+.product__img--alternative {
+  width: 8.75rem; 
+}
+
+/*product04*/
+.product__img--cyperus {
+  position: absolute;
+  left: -35px;
+  top: -25px;
+  width: 15.75rem;
+}
+
+.product__content {
+  grid-area: content;
+  padding: 2rem 0 2rem .3rem;
+  /*position: relative;
+  z-index: 2;
+   precisamos de um position diferente do estático e um z-index maior do que o da imagem para garantir que o conteúdo fique acima da imagem */
+}
+
+.product__title {
+  margin: 0 0 .5rem;
+}
+
+.product__price {
+  margin-bottom: 1.5rem;
+}
+
+.product__buy {
+  align-items: center;
+  color: var(--yellow-button);
+  display: flex;
+  gap: 1.75rem;
+  text-decoration: none;
+}
+
+.product__buy--icon {
+  background-image: url(../../img/icons/arrow.svg);
+  background-size: contain;
+  display: block;
+  height: .875rem;
+  width: .875rem;
+}

@@ -1,0 +1,34 @@
+.footer {
+  background: var(--white) url(../../img/background/splash_footer.svg) top -11rem right no-repeat;
+  padding-bottom: 2.5rem;
+  padding-top: 1.5rem;
+}
+
+.footer__logo {
+  max-width: 11.125rem;
+  margin-bottom: .25rem;
+}
+
+.footer__social {
+  display: flex;
+  gap: 1.625rem;
+  margin-bottom: 2rem;
+}
+
+.footer__social-midia {
+  display: inline-block;
+  height: 1.625rem;
+  width: 1.625rem;
+}
+
+.footer__unit {
+  margin-bottom: 2rem;
+}
+
+.footer__unit-title {
+  color: var(--black);
+  display: block;
+  font-size: var(--featured-size);
+  font-weight: var(--featured-weigth);
+  margin-bottom: .5rem;
+}

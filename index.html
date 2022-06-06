@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Casa Verde </title>
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components/header.css">
+  <link rel="stylesheet" href="assets/css/chamada.css">
+  <link rel="stylesheet" href="assets/css/components/button.css">
+  <link rel="stylesheet" href="assets/css/components/input.css">
+  <link rel="stylesheet" href="assets/css/components/card.css">
+  <link rel="stylesheet" href="assets/css/components/item.css">
+  <link rel="stylesheet" href="assets/css/how_to_buy.css">
+  <link rel="stylesheet" href="assets/css/components/product.css">
+  <link rel="stylesheet" href="assets/css/offers.css">
+  <link rel="stylesheet" href="assets/css/components/video.css">
+  <link rel="stylesheet" href="assets/css/components/footer.css">
+  
+</head>
+<body>
+   <header class="header container">
+     <img src="assets/img/logo.svg" alt="Logo Casa Verde. É uma folha de árvore da cor verde" class="header__logo">
+     <a href="#" aria-label="Meu carrinho de compras">
+       <img src="assets/img/icons/cart_header.svg" alt="Ícone do carrinho de compras" class="header__cart">
+      </a>
+    </header>
+
+    <main>
+      <section class="chamada container">
+        <h2 class="title">Sua casa com as 
+          <span class="title-featured">melhores plantas</span>
+        </h2>
+        <p class="text chamada__text">Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo uma pessoa mais feliz no seu dia a dia. Entre com seu e-mail e assine nossa newsletter para saber das novidades da marca</p>
+        <img src="assets/img/planta_chamada.png" alt="Produto. Uma pequena árvore" class="chamada_img">
+        <form action="#" class="chamada__form" >
+          <input type="text" class="input input--icon input--email" placeholder="Insira seu email" aria-label="Insira seu email">
+          <button class="button">Assinar Newsletter</button>
+        </form>
+      </section>
+
+      <section class="container how-to-buy">
+        <article class="card">
+          <h2 class="title title--product">Como conseguir
+            <span class="title-featured title--product">minha planta</span>
+          </h2>
+          <ul class="list">
+            <li class="list__item">
+              <span class="item__icon item__icon--cursor "></span>
+              <p>Escolha suas plantas</p>
+            </li>
+            <li class="list__item">
+              <span class="item__icon item__icon--cart"></span>
+              <p>Faça seu pedido</p>
+            </li>
+            <li class="list__item">
+              <span class="item__icon item__icon--truck"></span>
+              <p>Aguarde em casa</p>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="container offers">
+        <h2 class="title title--product">Conheça nossos
+          <span class="title-featured title--product">produtos</span>
+        </h2>
+        <ul>
+          <li class="product">
+            <img src="assets/img/products/product_01.png" alt="Uma folha longa e verde" class="product__img">
+            <div class="product__content">
+              <h3 class="product__title title-featured">Cordyline
+                fruticosa</h3>
+              <p class="product__price">R$ 20,00</p>
+              <a href="#" class="product__buy">Comprar<span class="product__buy--icon"></span></a>
+            </div>
+          </li>
+          <li class="product">
+            <img src="assets/img/products/product_02.png" alt="Algumas folhas de uma planta de cor verde escuro" class="product__img">
+            <div class="product__content">
+              <h3 class="product__title title-featured">Crassula
+                ovata</h3>
+              <p class="product__price">R$ 20,00</p>
+              <a href="#" class="product__buy">Comprar<span class="product__buy--icon"></span></a>
+            </div>
+          </li>
+          <li class="product">
+            <img src="assets/img/products/product_03.png" alt="Um pequeno galho com algumas folhas verde" class="product__img">
+            <div class="product__content">
+              <h3 class="product__title title-featured">Delairea
+                odorata</h3>
+              <p class="product__price">R$ 20,00</p>
+              <a href="#" class="product__buy">Comprar<span class="product__buy--icon"></span></a>
+            </div>
+          </li>
+          <li class="product">
+            <img src="assets/img/products/product_04.png" alt="Um pequeno galho com algumas folhas verdes claras" class="product__img">
+            <div class="product__content">
+              <h3 class="product__title title-featured">Datura
+                metel</h3>
+              <p class="product__price">R$ 20,00</p>
+              <a href="#" class="product__buy">Comprar<span class="product__buy--icon"></span></a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="container">
+        <h2 class="title title--product">Veja aqui nossos
+          <span class="title-featured title--product">vídeos</span>
+        </h2>
+        <article class="video__card">
+          <div class="video__card-container">
+            <img src="assets/img/videos/video_01.png" alt="Folhas finas de uma árvore com galhos finos" class="video__img">
+          </div>
+          <h3 class="video__card-title">Vídeo XYZ</h3>
+          <p>Publicado em março de 2022</p>
+        </article>
+
+        <article class="video__card">
+          <div class="video__card-container">
+            <img src="assets/img/videos/video_02.png" alt="Flores com várias pétalas verdes" class="video__img">
+          </div>
+          <h3 class="video__card-title">Vídeo XYZ</h3>
+          <p>Publicado em março de 2022</p>
+        </article>
+
+        <article class="video__card">
+          <div class="video__card-container">
+            <img src="assets/img/videos/video_03.png" alt="Flores amarelas com fundo de céu azul" class="video__img">
+          </div>
+          <h3 class="video__card-title">Vídeo XYZ</h3>
+          <p>Publicado em março de 2022</p>
+        </article>
+
+        <article class="video__card">
+          <div class="video__card-container">
+            <img src="assets/img/videos/video_04.png" alt="Ambiente externo de um restaurante com vegetação ao redor da mesa" class="video__img">
+          </div>
+          <h3 class="video__card-title">Vídeo XYZ</h3>
+          <p>Publicado em março de 2022</p>
+        </article>
+
+      </section>
+
+    </main>
+
+    <footer class="container footer">
+      <img src="assets/img/logo.svg" alt="Logo Casa Verde" class="footer__logo">
+      <ul class="footer__social">
+        <li class="footer__social"><a href="#" class="footer__social-midia" title="Facebook"><img
+              src="assets/img/icons/facebook.svg" alt="facebook"></a></li>
+        <li class="footer__social"><a href="#" class="footer__social-midia" title="Twitter"><img
+              src="assets/img/icons/twitter.svg" alt="twitter"></a></li>
+        <li class="footer__social"><a href="#" class="footer__social-midia" title="Instagram"><img
+              src="assets/img/icons/instagram.svg" alt="instagram"></a></li>
+      </ul>
+      <address class="footer__unit text">
+        <span class="footer__unit-title">Rio de Janeiro </span>
+        Rua Siqueira Campos, 171, 303<br>
+        Copacabana<br>
+        Telefone: (21) 99876-0099
+      </address>
+  
+      <address class="footer__unit text">
+        <span class="footer__unit-title">São Paulo </span>
+        Rua Anita Garibaldi, 33, 13<br>
+        Sé<br>
+        Telefone: (11) 99875-2201
+      </address>
+  
+    </footer>
+</body>
+</html>

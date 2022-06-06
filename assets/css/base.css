@@ -1,0 +1,35 @@
+@import url(_variables.css);
+@import url(_reset.css);
+
+body {
+  background-image: url(../../assets/img/background/background.png), url(../../assets/img/background/background_lines.png);
+  background-position: center;
+  color: var(--grey);
+  font-family: var(--text);
+  font-size: var( --text-size);
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+.title {
+  font-size: var(--title-size);
+}
+
+.title-featured {
+  color: var(--black);
+  display: block;
+  font-family: var(--title-featured);
+  font-size: var(--title-featured-size);
+  font-weight: var(--title-featured-weigth);
+  margin: .75rem 0;
+}
+
+.title--product {
+  text-align: center;
+}
+
+.text {
+  line-height: 26px;
+}

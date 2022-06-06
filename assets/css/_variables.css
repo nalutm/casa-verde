@@ -1,0 +1,21 @@
+:root {
+  --black-shadow: #0000000F;
+  --black: #202020;
+  --yellow-shadow: #FFCB473D;
+  --grey: #909090;
+  --white: #FFF;
+  --yellow-button: #FFCB47;
+
+  --text: 'Montserrat', sans-serif;
+  --title-featured: 'Elsie Swash Caps', serif;
+
+  --title-featured-weight: 900;
+  --button-weight: 700;
+  --featured-weigth: 700;
+  
+  --text-size: 1rem;
+  --featured-size: 1.375rem;
+  --title-size: 1.375rem;
+  --title-featured-size: 2rem;
+
+}

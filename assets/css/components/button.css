@@ -1,0 +1,18 @@
+.button {
+  background: var(--yellow-button);
+  border: none;
+  box-shadow: 10px 10px 30px var(--yellow-shadow);
+  color: var(--white);
+  text-align: center;
+  font-family: inherit;
+  font-weight: var(--button-weight);
+  padding: 1.75rem 0;
+  width: 100%;
+}
+
+.button--alternative {
+  background-color: unset;
+  box-shadow: none;
+  border: 1px solid var(--yellow-button);
+  color: var(--yellow-button);
+}
